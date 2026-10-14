@@ -1,0 +1,62 @@
+[
+  {
+    "id": "arvejas-envasadas",
+    "nombre": "Arvejas envasadas",
+    "categoria": "Prácticas para tu despensa",
+    "descripcion": "Una opción cómoda para tener arvejas listas y dar sabor a tus comidas de todos los días.",
+    "etiqueta": "PRÁCTICO",
+    "icono": "🫙",
+    "color": "#f0f5e6",
+    "filtros": ["envasados"]
+  },
+  {
+    "id": "arvejas-peladas",
+    "nombre": "Arvejas peladas",
+    "categoria": "Listas para preparar",
+    "descripcion": "Ideales para incorporar a tus recetas y ahorrar tiempo durante la preparación.",
+    "etiqueta": "FAVORITO",
+    "icono": "🟢",
+    "color": "#edf5df",
+    "filtros": ["cocina"]
+  },
+  {
+    "id": "arvejas-para-sopas",
+    "nombre": "Arvejas para sopas",
+    "categoria": "Para cocinar",
+    "descripcion": "Una alternativa para complementar sopas, caldos y platos caseros llenos de sabor.",
+    "etiqueta": "PARA COMPARTIR",
+    "icono": "🥣",
+    "color": "#f7f0df",
+    "filtros": ["cocina"]
+  },
+  {
+    "id": "arvejas-para-aperitivos",
+    "nombre": "Arvejas para aperitivos",
+    "categoria": "Para picar y compartir",
+    "descripcion": "Una opción versátil para preparar aperitivos y acompañar tus reuniones.",
+    "etiqueta": "IDEAS RICAS",
+    "icono": "🥗",
+    "color": "#f6eee6",
+    "filtros": ["snacks", "cocina"]
+  },
+  {
+    "id": "arvejas-para-licuado",
+    "nombre": "Arvejas para licuado",
+    "categoria": "Una opción diferente",
+    "descripcion": "Consulta las presentaciones disponibles y cuéntanos qué tipo de preparación tienes en mente.",
+    "etiqueta": "DESCÚBRELO",
+    "icono": "🥤",
+    "color": "#eaf3e9",
+    "filtros": ["cocina"]
+  },
+  {
+    "id": "arvejas-secas",
+    "nombre": "Arvejas secas",
+    "categoria": "Para tus recetas",
+    "descripcion": "Una alternativa para guardar en la despensa y utilizar en distintas preparaciones.",
+    "etiqueta": "VERSÁTIL",
+    "icono": "🌿",
+    "color": "#f0f2df",
+    "filtros": ["cocina"]
+  }
+]

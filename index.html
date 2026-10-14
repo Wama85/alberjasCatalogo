@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre los productos de arvejas de alberjasClick. Consulta disponibilidad y precios directamente por WhatsApp.">
+  <title>alberjasClick | Catálogo de productos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    Productos de arvejas para tu hogar y negocio
+    <span class="announcement-separator">·</span>
+    <span>Consulta precios por WhatsApp</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="alberjasClick, inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M8 25C8 13 18 7 35 9c2 16-4 27-16 28C12 37 8 32 8 25Z" fill="currentColor"/><path d="M12 35c7-10 13-15 23-22" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><circle cx="20" cy="25" r="3.3" fill="#fff"/><circle cx="27" cy="19" r="3.3" fill="#fff"/></svg>
+      </span>
+      <span class="brand-name">alberjas<span>Click</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="header-cta" href="https://wa.me/59172265286?text=Hola%2C%20quiero%20consultar%20por%20sus%20productos." target="_blank" rel="noopener">Consultar <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="eyebrow-line"></span> FRESCURA PARA CADA RECETA</div>
+        <h1>Pequeñas arvejas,<br><span>grandes ideas</span><br>para tu cocina.</h1>
+        <p class="hero-description">Encuentra arvejas para tus comidas de todos los días, sopas, aperitivos y mucho más. Explora nuestro catálogo y haz tu consulta por WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#catalogo">Explorar productos <span>↓</span></a>
+          <a class="button button-quiet" href="https://wa.me/59172265286?text=Hola%20alberjasClick%2C%20quisiera%20recibir%20informaci%C3%B3n." target="_blank" rel="noopener"><span class="whatsapp-icon">◉</span> Hablar por WhatsApp</a>
+        </div>
+        <div class="hero-note"><span class="note-check">✓</span> Sin precios publicados: consulta y recibe atención directa.</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de arvejas frescas y un recipiente">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-label label-top"><span>100%</span><small>VERSÁTILES</small></div>
+        <div class="pea-pod"><div class="pod-pea pea-a"></div><div class="pod-pea pea-b"></div><div class="pod-pea pea-c"></div><div class="pod-pea pea-d"></div></div>
+        <div class="pea-bowl"><div class="bowl-rim"></div><div class="bowl-fill"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="floating-leaf leaf-one"></div><div class="floating-leaf leaf-two"></div>
+        <div class="art-label label-bottom"><span>🥣</span><div><strong>Tu próxima receta</strong><small>empieza aquí</small></div></div>
+      </div>
+      <div class="hero-bottom-line"><span>CATÁLOGO DE PRODUCTOS</span><span>HECHO PARA COMPARTIR <b>✳</b></span></div>
+    </section>
+
+    <section class="catalog-section section-pad" id="catalogo">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> NUESTRO CATÁLOGO</div><h2>Encuentra tu <span>favorito.</span></h2></div>
+        <p>Elige el producto que necesitas y consúltanos su precio, presentación y disponibilidad directamente por WhatsApp.</p>
+      </div>
+      <div class="catalog-tools">
+        <div class="filter-tabs" id="filterTabs" aria-label="Filtrar productos">
+          <button class="filter-tab active" data-filter="todos">Todos los productos</button>
+          <button class="filter-tab" data-filter="envasados">Envasados</button>
+          <button class="filter-tab" data-filter="cocina">Para cocinar</button>
+          <button class="filter-tab" data-filter="snacks">Aperitivos</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar producto..." aria-label="Buscar producto"></label>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <div class="loading-state">Preparando nuestro catálogo…</div>
+      </div>
+      <div class="catalog-footnote"><span class="info-circle">i</span> Los precios no se muestran en la web. Pulsa “Consultar por WhatsApp” en el producto que te interesa.</div>
+    </section>
+
+    <section class="purpose-section section-pad" id="nosotros">
+      <div class="purpose-visual">
+        <div class="purpose-circle circle-back"></div><div class="purpose-circle circle-front"></div>
+        <div class="purpose-card"><span class="purpose-icon">🌱</span><span class="purpose-card-title">Sabor que inspira</span><span class="purpose-card-text">Ideas simples para comer rico.</span></div>
+        <div class="mini-peas"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="purpose-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> SOBRE ALBERJASCLICK</div>
+        <h2>Una opción práctica<br>para <span>cada momento.</span></h2>
+        <p>En alberjasClick reunimos distintas opciones de productos de arvejas para acompañar tus recetas. Queremos ayudarte a encontrar la presentación ideal para tu hogar, tu negocio o tu próxima preparación.</p>
+        <div class="value-list">
+          <div class="value-item"><span class="value-number">01</span><div><strong>Variedad para elegir</strong><p>Opciones para sopas, comidas, aperitivos y más.</p></div></div>
+          <div class="value-item"><span class="value-number">02</span><div><strong>Atención directa</strong><p>Consulta precios y detalles sin intermediarios.</p></div></div>
+          <div class="value-item"><span class="value-number">03</span><div><strong>Pedido sencillo</strong><p>Elige un producto y continúa por WhatsApp.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-banner" id="contacto">
+      <div class="contact-decoration">● ● ●</div>
+      <div><div class="eyebrow light"><span class="eyebrow-line"></span> ¿LISTO PARA CONSULTAR?</div><h2>Tu producto favorito<br>está a un mensaje.</h2><p>Cuéntanos qué necesitas. Te ayudamos con precios y disponibilidad.</p></div>
+      <a class="button button-white" href="https://wa.me/59172265286?text=Hola%20alberjasClick%2C%20quisiera%20consultar%20por%20sus%20productos." target="_blank" rel="noopener"><span class="whatsapp-icon">◉</span> Escribir por WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark"><svg viewBox="0 0 48 48"><path d="M8 25C8 13 18 7 35 9c2 16-4 27-16 28C12 37 8 32 8 25Z" fill="currentColor"/><path d="M12 35c7-10 13-15 23-22" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><circle cx="20" cy="25" r="3.3" fill="#fff"/><circle cx="27" cy="19" r="3.3" fill="#fff"/></svg></span><span class="brand-name">alberjas<span>Click</span></span></a>
+    <p>Buenas ideas, buenos ingredientes. <span>© <span id="year"></span> alberjasClick</span></p>
+    <a class="footer-whatsapp" href="https://wa.me/59172265286" target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
